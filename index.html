@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Шифр Цезаря</title>
+    <link rel="stylesheet" href="https://bootstraptema.ru/snippets/style/2015/bootswatch/bootstrap-simplex-v3.3.6.css">
+    <link rel="stylesheet" href="https://bootstraptema.ru/snippets/style/2015/bootswatch/custom.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Шифр Цезаря</h1>
+        <div class="form-group">
+            <label for="textToEncryption">Текст для Шифрования</label>
+            <input type="text" class="form-input" id="textToEncryption">
+        </div>
+        <div class="form-group">
+            <label for="encryptionIteration">Число смещений (n)</label>
+            <input type="text" class="form-input" id="encryptionIteration">
+        </div>
+        <button id="encryptionBtn" class="btn">Зашифровать</button>
+        <div class="form-group">
+            <label for="encryptionText">Результат</label>
+            <input type="text" class="form-input" id="encryptionText" readonly>
+        </div>
+        <hr>
+        <div class="form-group">
+            <label for="textToDecipher">Текст для расшифровки</label>
+            <input type="text" class="form-input" id="textToDecipher">
+        </div>
+        <div class="form-group">
+            <label for="decipherIteration">Число смещений (n)</label>
+            <input type="text" class="form-input" id="decipherIteration">
+        </div>
+        <button id="transcriptBtn" class="btn">Расшифровать</button>
+        <div class="form-group">
+            <label for="decipherText">Результат</label>
+            <input type="text" class="form-input" id="decipherText" readonly>
+        </div>
+    </div>
+</body>
+</html>
